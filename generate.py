@@ -1,0 +1,135 @@
+#!/usr/bin/env python3
+"""Rebuild README.md from DDMarketer's public MCP endpoint (no key, stdlib only).
+
+Run weekly by .github/workflows/refresh.yml. Every link carries utm_source=github so
+the traffic this list sends is visible in analytics.
+"""
+import datetime as dt
+import json
+import time
+import urllib.request
+
+MCP = "https://www.ddmarketer.com/api/mcp"
+UTM = "utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas"
+PER_MARKET = 10
+# (heading, search query): markets with at least 10 validated gaps as of 2026-11-10.
+MARKETS = [
+    ("Shopify app ideas", "shopify"),
+    ("WooCommerce plugin ideas", "woocommerce"),
+    ("Accounting and bookkeeping software ideas", "accounting"),
+    ("Real estate SaaS ideas", "real estate"),
+    ("Property management software ideas", "property management"),
+    ("Developer tool ideas", "developer tools"),
+    ("AI agent product ideas", "ai agents"),
+    ("Healthcare software ideas", "healthcare"),
+    ("HR and payroll software ideas", "hr payroll"),
+    ("Legal tech ideas", "legal"),
+    ("Construction software ideas", "construction"),
+    ("Logistics software ideas", "logistics"),
+    ("Marketing agency tool ideas", "marketing agency"),
+    ("Tools for freelancers", "freelancer"),
+]
+
+
+def call(tool: str, args: dict) -> dict:
+    body = json.dumps({"jsonrpc": "2.0", "id": 1, "method": "tools/call",
+                       "params": {"name": tool, "arguments": args}}).encode()
+    req = urllib.request.Request(MCP, data=body, headers={
+        "Content-Type": "application/json", "Accept": "application/json, text/event-stream",
+        "User-Agent": "validated-saas-ideas/1 (+https://github.com/CodePhantom-1/validated-saas-ideas)"})
+    for attempt in range(3):
+        try:
+            result = json.loads(urllib.request.urlopen(req, timeout=60).read().decode())["result"]
+            if result.get("isError"):
+                raise RuntimeError(f"{tool} {args}: tool error")
+            return result.get("structuredContent") or {}
+        except Exception:
+            if attempt == 2:
+                raise
+            time.sleep(5 * (attempt + 1))
+
+
+def link(gap: dict) -> str:
+    sep = "&" if "?" in gap["publicUrl"] else "?"
+    return f"{gap['publicUrl']}{sep}{UTM}"
+
+
+def cell(text: str) -> str:
+    return (text or "").replace("|", "/").replace("\n", " ").strip()
+
+
+def table(gaps: list) -> str:
+    rows = ["| Idea | Market | Buying intent |", "|---|---|---|"]
+    for g in gaps:
+        market = cell(g.get("niche") or g.get("category"))
+        rows.append(f"| [{cell(g['title'])}]({link(g)}) | {market} | {g.get('commercialIntent', '?')}/100 |")
+    return "\n".join(rows)
+
+
+def main() -> None:
+    top = call("get_top_gaps", {"limit": 25})
+    seen = {g["id"] for g in top["gaps"]}
+    sections = []
+    for heading, query in MARKETS:
+        found = call("search_gaps", {"query": query, "limit": 25})
+        fresh = [g for g in found.get("gaps", []) if g["id"] not in seen][:PER_MARKET]
+        seen.update(g["id"] for g in fresh)
+        if fresh:
+            anchor = heading.lower().replace(" ", "-")
+            sections.append((heading, anchor, found.get("total", len(fresh)), fresh))
+        time.sleep(1)
+
+    week = "this week's complaints" if top.get("scope") == "weekly" else "all time (the week was quiet)"
+    today = dt.date.today().isoformat()
+    toc = "\n".join(f"- [{h}](#{a}) ({n} in the database)" for h, a, n, _ in sections)
+    body = "\n\n".join(f"## {h}\n\n{table(g)}" for h, a, n, g in sections)
+    readme = f"""# Validated SaaS ideas
+
+Real software problems people already complain about, and say they would pay to fix.
+Every idea below comes from recurring public complaints (Reddit, Hacker News, GitHub
+issues, app and product reviews, niche forums) and carries a 0-100 **buying-intent**
+score. Each title links to the idea's page on DDMarketer with the evidence behind it.
+
+Refreshed automatically every week. Last refresh: **{today}**.
+
+This list shows {len(seen)} of the 1,300+ ideas in [DDMarketer](https://www.ddmarketer.com/?{UTM}).
+The same data is available to AI agents as a free remote MCP server:
+`https://www.ddmarketer.com/api/mcp`.
+
+## Contents
+
+- [This week's top 25](#this-weeks-top-25)
+{toc}
+- [How ideas are validated](#how-ideas-are-validated)
+
+## This week's top 25
+
+The highest buying-intent gaps from {week}.
+
+{table(top["gaps"])}
+
+{body}
+
+## How ideas are validated
+
+1. Complaints are collected from public sources every few days.
+2. A fast model filters out noise and self-promotion; a second pass scores each remaining
+   complaint for buying intent, confidence and emotional intensity.
+3. Complaints about the same unmet need are grouped, so each idea shows how many
+   independent people raised it.
+4. Each idea gets a page with the evidence and a minimal product to test it.
+
+The full method is at [ddmarketer.com/methodology](https://www.ddmarketer.com/methodology?{UTM}).
+
+---
+
+Generated by [`generate.py`](generate.py) from DDMarketer's public MCP endpoint.
+Spotted a bad idea or a broken link? Open an issue.
+"""
+    with open("README.md", "w", encoding="utf-8", newline="\n") as f:
+        f.write(readme)
+    print(f"README.md: {len(top['gaps'])} top + {sum(len(g) for *_, g in sections)} by market, {len(sections)} markets")
+
+
+if __name__ == "__main__":
+    main()
