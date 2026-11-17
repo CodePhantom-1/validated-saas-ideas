@@ -5,25 +5,25 @@ Every idea below comes from recurring public complaints (Reddit, Hacker News, Gi
 issues, app and product reviews, niche forums) and carries a 0-100 **buying-intent**
 score. Each title links to the idea's page on DDMarketer with the evidence behind it.
 
-Refreshed automatically every week. Last refresh: **2026-11-10**.
+Refreshed automatically every week. Last refresh: **2026-11-17**.
 
-This list shows 164 of the 1,300+ ideas in [DDMarketer](https://www.ddmarketer.com/?utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas).
+This list shows 150 of the 1,300+ ideas in [DDMarketer](https://www.ddmarketer.com/?utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas).
 The same data is available to AI agents as a free remote MCP server:
 `https://www.ddmarketer.com/api/mcp`.
 
 ## Contents
 
 - [This week's top 25](#this-weeks-top-25)
-- [Shopify app ideas](#shopify-app-ideas) (125 in the database)
+- [Shopify app ideas](#shopify-app-ideas) (127 in the database)
 - [WooCommerce plugin ideas](#woocommerce-plugin-ideas) (13 in the database)
-- [Accounting and bookkeeping software ideas](#accounting-and-bookkeeping-software-ideas) (213 in the database)
-- [Real estate SaaS ideas](#real-estate-saas-ideas) (108 in the database)
-- [Property management software ideas](#property-management-software-ideas) (66 in the database)
-- [Developer tool ideas](#developer-tool-ideas) (327 in the database)
+- [Accounting and bookkeeping software ideas](#accounting-and-bookkeeping-software-ideas) (214 in the database)
+- [Real estate SaaS ideas](#real-estate-saas-ideas) (112 in the database)
+- [Property management software ideas](#property-management-software-ideas) (69 in the database)
+- [Developer tool ideas](#developer-tool-ideas) (328 in the database)
 - [AI agent product ideas](#ai-agent-product-ideas) (153 in the database)
 - [Healthcare software ideas](#healthcare-software-ideas) (15 in the database)
 - [HR and payroll software ideas](#hr-and-payroll-software-ideas) (16 in the database)
-- [Legal tech ideas](#legal-tech-ideas) (32 in the database)
+- [Legal tech ideas](#legal-tech-ideas) (34 in the database)
 - [Construction software ideas](#construction-software-ideas) (14 in the database)
 - [Logistics software ideas](#logistics-software-ideas) (11 in the database)
 - [Marketing agency tool ideas](#marketing-agency-tool-ideas) (14 in the database)
@@ -36,31 +36,16 @@ The highest buying-intent gaps from this week's complaints.
 
 | Idea | Market | Buying intent |
 |---|---|---|
-| [Enterprise caller-ID reputation platform that actually clears spam labels across carriers](https://www.ddmarketer.com/gap/enterprise-caller-id-reputation-platform-that-actually-clears-spam-labels-633f2776?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | Outbound caller ID reputation management | 100/100 |
-| [WooCommerce reorder alerts that respect 4-week supplier lead times](https://www.ddmarketer.com/gap/woocommerce-reorder-alerts-that-respect-4-week-supplier-lead-times-9ab8cf70?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | WooCommerce inventory planning and reorder automation | 100/100 |
-| [UltraTax to client portal document flow without manual folder copying](https://www.ddmarketer.com/gap/ultratax-to-client-portal-document-flow-without-manual-folder-copying-f157de31?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | UltraTax document workflow automation | 100/100 |
-| [WooCommerce margin floor that stops stacked coupons from eating your profit](https://www.ddmarketer.com/gap/woocommerce-margin-floor-that-stops-stacked-coupons-from-eating-your-0f82c567?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | WooCommerce coupon stacking and margin enforcement | 80/100 |
-| [Granular data purging for AI tools without losing context](https://www.ddmarketer.com/gap/granular-data-purging-for-ai-tools-without-losing-context-10a266d9?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | Sysadmin | 80/100 |
-| [WooCommerce deposit plugin that charges before event dates not arbitrary schedules](https://www.ddmarketer.com/gap/woocommerce-deposit-plugin-that-charges-before-event-dates-not-arbitrary-1274adde?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | WooCommerce event-based deposits and payment plans | 80/100 |
-| [Chargebacks you won but didn't realize cost you the customer](https://www.ddmarketer.com/gap/chargebacks-you-won-but-didn-t-realize-cost-you-the-14b017f9?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | Stripe chargeback and churn correlation | 80/100 |
-| [Autonomous Defender XDR response without a 24/7 SOC](https://www.ddmarketer.com/gap/autonomous-defender-xdr-response-without-a-24-7-soc-35bcbe28?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | Microsoft Defender XDR incident response automation | 80/100 |
-| [Self-tuning discount ladders for Shopify dead stock](https://www.ddmarketer.com/gap/self-tuning-discount-ladders-for-shopify-dead-stock-378c1127?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | Shopify dead stock liquidation | 80/100 |
-| [MSP-grade Microsoft deprecation feed that catches every breaking change](https://www.ddmarketer.com/gap/msp-grade-microsoft-deprecation-feed-that-catches-every-breaking-change-40569549?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | MSP Microsoft lifecycle monitoring | 80/100 |
-| [Automated DDP shipping and compliance for UK to EU/US ecommerce](https://www.ddmarketer.com/gap/automated-ddp-shipping-and-compliance-for-uk-to-eu-us-4f53e659?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | WooCommerce | 80/100 |
-| [M365 posture scanner that reads the settings Graph API misses](https://www.ddmarketer.com/gap/m365-posture-scanner-that-reads-the-settings-graph-api-misses-530ce7eb?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | M365 security posture automation | 80/100 |
-| [Field service software migration without massive contract buyout traps](https://www.ddmarketer.com/gap/field-service-software-migration-without-massive-contract-buyout-traps-564fa54f?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | fsm | 80/100 |
-| [Protect Stripe Connect marketplaces from drain-and-withdraw fraud](https://www.ddmarketer.com/gap/protect-stripe-connect-marketplaces-from-drain-and-withdraw-fraud-617c5408?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | Stripe Connect fraud monitoring for marketplace operators | 80/100 |
-| [Shopify card-testing fraud shield merchants can control](https://www.ddmarketer.com/gap/shopify-card-testing-fraud-shield-merchants-can-control-67b38885?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | Shopify fraud protection / card-testing mitigation | 80/100 |
-| [Internal registry for sharing AI agent context and configs](https://www.ddmarketer.com/gap/internal-registry-for-sharing-ai-agent-context-and-configs-6de10263?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | AI agent internal sharing and sync | 80/100 |
-| [Cross-border shipping cost optimization for mid-volume EU merchants](https://www.ddmarketer.com/gap/cross-border-shipping-cost-optimization-for-mid-volume-eu-merchants-6decdc20?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | Shopify | 80/100 |
-| [Automated ledger reconciliation for Shopify and Stripe payouts](https://www.ddmarketer.com/gap/automated-ledger-reconciliation-for-shopify-and-stripe-payouts-7a0d9603?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | Shopify | 80/100 |
-| [SaaS billing transparency and automated subscription lifecycle management](https://www.ddmarketer.com/gap/saas-billing-transparency-and-automated-subscription-lifecycle-management-7bc849d4?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | SaaS billing and contract management | 80/100 |
-| [Automated incremental backups for Notion enterprise workspaces](https://www.ddmarketer.com/gap/automated-incremental-backups-for-notion-enterprise-workspaces-88990af3?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | Notion | 80/100 |
-| [Instant multi-server Docker rollbacks without manual SSH firefighting](https://www.ddmarketer.com/gap/instant-multi-server-docker-rollbacks-without-manual-ssh-firefighting-89518a45?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | Docker | 80/100 |
-| [Fair-priced ADA overlays that survive restaurant lawsuits](https://www.ddmarketer.com/gap/fair-priced-ada-overlays-that-survive-restaurant-lawsuits-8f6b65a5?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | WordPress ADA Compliance & Litigation Defense | 80/100 |
-| [Pay-per-verified SDR contact data replacing $36k ZoomInfo renewals](https://www.ddmarketer.com/gap/pay-per-verified-sdr-contact-data-replacing-36k-zoominfo-renewals-99997b47?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | B2B contact enrichment and phone number verification | 80/100 |
-| [Reliable Acumatica and Shopify connector for advanced merchants](https://www.ddmarketer.com/gap/reliable-acumatica-and-shopify-connector-for-advanced-merchants-9c2ce756?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | Shopify | 80/100 |
-| [Auto-matching purchase invoices to sales orders for insurance claims](https://www.ddmarketer.com/gap/auto-matching-purchase-invoices-to-sales-orders-for-insurance-claims-9cd806db?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | Xero e-commerce claims processing | 80/100 |
+| [Zero-config HTML form endpoints for static client sites](https://www.ddmarketer.com/gap/zero-config-html-form-endpoints-for-static-client-sites-36e7ff36?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | Static site form endpoints and email delivery | 80/100 |
+| [CRA compliance toolkit for solo firmware vendors](https://www.ddmarketer.com/gap/cra-compliance-toolkit-for-solo-firmware-vendors-578dfef4?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | EU Cyber Resilience Act compliance for micro software vendors | 80/100 |
+| [Stop waking up to $100k Salesforce credit bills](https://www.ddmarketer.com/gap/stop-waking-up-to-100k-salesforce-credit-bills-57fa4393?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | SaaS spend management / Salesforce credit monitoring | 80/100 |
+| [Remote landlord oversight for cross-border rental properties](https://www.ddmarketer.com/gap/remote-landlord-oversight-for-cross-border-rental-properties-dac1a8ba?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | Cross-border property management oversight | 80/100 |
+| [Painless channel manager onboarding with zero-property drift](https://www.ddmarketer.com/gap/painless-channel-manager-onboarding-with-zero-property-drift-3c8ed246?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | Vacation rental channel management onboarding | 60/100 |
+| [Deposits and net terms for non-Plus Shopify wholesale](https://www.ddmarketer.com/gap/deposits-and-net-terms-for-non-plus-shopify-wholesale-5a7fadf8?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | Shopify B2B financials and deposits | 60/100 |
+| [Prove your Airbnb isn't hosting a party before Airbnb blocks it](https://www.ddmarketer.com/gap/prove-your-airbnb-isn-t-hosting-a-party-before-airbnb-74f0dc2d?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | Airbnb host operations | 60/100 |
+| [Airbnb turnover coordinator that prevents review-risk late-checkout conflicts](https://www.ddmarketer.com/gap/airbnb-turnover-coordinator-that-prevents-review-risk-late-checkout-conflicts-79e61626?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | Airbnb/STR turnover management | 60/100 |
+| [Stop spam emails posing as store customers](https://www.ddmarketer.com/gap/stop-spam-emails-posing-as-store-customers-7b243e8e?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | Shopify store contact email spam | 60/100 |
+| [Automated CCTV redaction for GDPR subject access requests](https://www.ddmarketer.com/gap/automated-cctv-redaction-for-gdpr-subject-access-requests-e6256456?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | GDPR CCTV SAR Processing | 60/100 |
 
 ## Shopify app ideas
 
@@ -81,15 +66,16 @@ The highest buying-intent gaps from this week's complaints.
 
 | Idea | Market | Buying intent |
 |---|---|---|
+| [WooCommerce reorder alerts that respect 4-week supplier lead times](https://www.ddmarketer.com/gap/woocommerce-reorder-alerts-that-respect-4-week-supplier-lead-times-9ab8cf70?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | WooCommerce inventory planning and reorder automation | 100/100 |
 | [Automate returns and warranty for small e-commerce brands](https://www.ddmarketer.com/gap/automate-returns-and-warranty-for-small-e-commerce-brands-0aafbf15?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | Returns and warranty management | 80/100 |
+| [WooCommerce margin floor that stops stacked coupons from eating your profit](https://www.ddmarketer.com/gap/woocommerce-margin-floor-that-stops-stacked-coupons-from-eating-your-0f82c567?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | WooCommerce coupon stacking and margin enforcement | 80/100 |
+| [WooCommerce deposit plugin that charges before event dates not arbitrary schedules](https://www.ddmarketer.com/gap/woocommerce-deposit-plugin-that-charges-before-event-dates-not-arbitrary-1274adde?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | WooCommerce event-based deposits and payment plans | 80/100 |
 | [WooCommerce plugin bloat kills checkout conversion](https://www.ddmarketer.com/gap/woocommerce-plugin-bloat-kills-checkout-conversion-284c81ee?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | WooCommerce performance optimization | 80/100 |
+| [Automated DDP shipping and compliance for UK to EU/US ecommerce](https://www.ddmarketer.com/gap/automated-ddp-shipping-and-compliance-for-uk-to-eu-us-4f53e659?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | WooCommerce | 80/100 |
 | [WooCommerce POS that syncs inventory and supports barcodes](https://www.ddmarketer.com/gap/woocommerce-pos-that-syncs-inventory-and-supports-barcodes-8c35005c?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | WooCommerce POS / Inventory Sync | 80/100 |
 | [WooCommerce upkeep finally pushed this bookseller out](https://www.ddmarketer.com/gap/woocommerce-upkeep-finally-pushed-this-bookseller-out-b7cc5b5b?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | WooCommerce maintenance burden for non-technical merchants | 80/100 |
 | [No-code WooCommerce checkout like Shopify](https://www.ddmarketer.com/gap/no-code-woocommerce-checkout-like-shopify-a52d2295?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | WooCommerce | 78/100 |
 | [Auto-convert B2B PDF purchase orders to WooCommerce](https://www.ddmarketer.com/gap/auto-convert-b2b-pdf-purchase-orders-to-woocommerce-1bb1f773?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | WooCommerce B2B Order Entry | 60/100 |
-| [Bot protection for WooCommerce that stops cart abuse without blocking buyers](https://www.ddmarketer.com/gap/bot-protection-for-woocommerce-that-stops-cart-abuse-without-blocking-34c54b33?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | WooCommerce | 60/100 |
-| [WooCommerce to Shopify without the plugin gaps](https://www.ddmarketer.com/gap/woocommerce-to-shopify-without-the-plugin-gaps-85830541?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | WooCommerce to Shopify migration app replacement | 60/100 |
-| [WooCommerce server response times that actually match PageSpeed](https://www.ddmarketer.com/gap/woocommerce-server-response-times-that-actually-match-pagespeed-fad13a30?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | WooCommerce performance monitoring | 60/100 |
 
 ## Accounting and bookkeeping software ideas
 
@@ -102,9 +88,9 @@ The highest buying-intent gaps from this week's complaints.
 | [Automated invoice reminders for trade contractors](https://www.ddmarketer.com/gap/automated-invoice-reminders-for-trade-contractors-8b32a055?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | Invoice automation for trade services | 100/100 |
 | [Contractor ERP that out-competes Sage and QuickBooks](https://www.ddmarketer.com/gap/contractor-erp-that-out-competes-sage-and-quickbooks-e8c2d1d2?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | Construction ERP / Job Costing | 100/100 |
 | [Per-customer AI spend limits that actually work](https://www.ddmarketer.com/gap/per-customer-ai-spend-limits-that-actually-work-ecddb69e?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | AI cost management for SaaS | 100/100 |
+| [UltraTax to client portal document flow without manual folder copying](https://www.ddmarketer.com/gap/ultratax-to-client-portal-document-flow-without-manual-folder-copying-f157de31?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | UltraTax document workflow automation | 100/100 |
 | [Migrate QuickBooks payroll history without monthly fees](https://www.ddmarketer.com/gap/migrate-quickbooks-payroll-history-without-monthly-fees-2d31eabf?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | QuickBooks data migration / payroll history | 90/100 |
 | [QuickBooks ACH fees overcharge, support refuses refund](https://www.ddmarketer.com/gap/quickbooks-ach-fees-overcharge-support-refuses-refund-a718ccfe?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | QuickBooks ACH payment processing | 90/100 |
-| [QuickBooks bank feeds that never break](https://www.ddmarketer.com/gap/quickbooks-bank-feeds-that-never-break-486688ce?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | QuickBooks | 89/100 |
 
 ## Real estate SaaS ideas
 
@@ -170,6 +156,7 @@ The highest buying-intent gaps from this week's complaints.
 
 | Idea | Market | Buying intent |
 |---|---|---|
+| [Enterprise caller-ID reputation platform that actually clears spam labels across carriers](https://www.ddmarketer.com/gap/enterprise-caller-id-reputation-platform-that-actually-clears-spam-labels-633f2776?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | Outbound caller ID reputation management | 100/100 |
 | [Prevent pet hospital neglect with real-time monitoring](https://www.ddmarketer.com/gap/prevent-pet-hospital-neglect-with-real-time-monitoring-04fe6eb8?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | Veterinary patient monitoring and owner communication | 80/100 |
 | [F3 users edit on-prem SMB files without SharePoint](https://www.ddmarketer.com/gap/f3-users-edit-on-prem-smb-files-without-sharepoint-1da231cf?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | Microsoft 365 / On-prem file access | 80/100 |
 | [EMR switching service for small clinics](https://www.ddmarketer.com/gap/emr-switching-service-for-small-clinics-40c16454?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | EMR migration and selection | 80/100 |
@@ -179,7 +166,6 @@ The highest buying-intent gaps from this week's complaints.
 | [Sub-10 second Windows login for shared healthcare PCs](https://www.ddmarketer.com/gap/sub-10-second-windows-login-for-shared-healthcare-pcs-b80d2820?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | Windows login optimization for shared environments | 80/100 |
 | [Compliance teams lose on-prem Jira in 2029](https://www.ddmarketer.com/gap/compliance-teams-lose-on-prem-jira-in-2029-be91d28a?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | on-prem issue tracker migration for regulated teams | 80/100 |
 | [Automate new CMS ACCESS model billing for clinicians](https://www.ddmarketer.com/gap/automate-new-cms-access-model-billing-for-clinicians-dacca323?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | CMS billing automation | 80/100 |
-| [Future-proof LIS dates, avoid Y2K-like bugs](https://www.ddmarketer.com/gap/future-proof-lis-dates-avoid-y2k-like-bugs-24091544?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | Legacy System Modernization | 70/100 |
 
 ## HR and payroll software ideas
 
@@ -247,6 +233,7 @@ The highest buying-intent gaps from this week's complaints.
 |---|---|---|
 | [Automated content migration QA for marketing sites](https://www.ddmarketer.com/gap/automated-content-migration-qa-for-marketing-sites-10d064cd?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | Content migration QA | 80/100 |
 | [Client consent and approval for agency testimonials](https://www.ddmarketer.com/gap/client-consent-and-approval-for-agency-testimonials-5a76c12c?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | Testimonial collection for agencies | 80/100 |
+| [Fair-priced ADA overlays that survive restaurant lawsuits](https://www.ddmarketer.com/gap/fair-priced-ada-overlays-that-survive-restaurant-lawsuits-8f6b65a5?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | WordPress ADA Compliance & Litigation Defense | 80/100 |
 | [Verify marketing agency staffing and hours per client](https://www.ddmarketer.com/gap/verify-marketing-agency-staffing-and-hours-per-client-93ab5504?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | Marketing agency transparency and accountability | 80/100 |
 | [Automated agency performance audits for enterprise marketing](https://www.ddmarketer.com/gap/automated-agency-performance-audits-for-enterprise-marketing-9dcf6e2e?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | Agency performance measurement | 80/100 |
 | [Automated prospect vetting for Google Ads agencies](https://www.ddmarketer.com/gap/automated-prospect-vetting-for-google-ads-agencies-afa557ed?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | PPC agency security | 80/100 |
@@ -254,7 +241,6 @@ The highest buying-intent gaps from this week's complaints.
 | [Automate client education for digital marketing agencies](https://www.ddmarketer.com/gap/automate-client-education-for-digital-marketing-agencies-17ab1ca2?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | Client education for digital marketing agencies | 60/100 |
 | [Stop Shopify spam before it hits your inbox](https://www.ddmarketer.com/gap/stop-shopify-spam-before-it-hits-your-inbox-382296f1?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | Shopify merchant spam filtering | 60/100 |
 | [Prove AI-accelerated custom software delivery](https://www.ddmarketer.com/gap/prove-ai-accelerated-custom-software-delivery-48a23acb?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | AI-assisted custom software development | 60/100 |
-| [Chasing clients for assets that never arrive](https://www.ddmarketer.com/gap/chasing-clients-for-assets-that-never-arrive-52bb480f?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | Client content collection for web design projects | 60/100 |
 
 ## Tools for freelancers
 
