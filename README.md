@@ -5,22 +5,22 @@ Every idea below comes from recurring public complaints (Reddit, Hacker News, Gi
 issues, app and product reviews, niche forums) and carries a 0-100 **buying-intent**
 score. Each title links to the idea's page on DDMarketer with the evidence behind it.
 
-Refreshed automatically every week. Last refresh: **2026-11-17**.
+Refreshed automatically every week. Last refresh: **2026-11-24**.
 
-This list shows 150 of the 1,300+ ideas in [DDMarketer](https://www.ddmarketer.com/?utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas).
+This list shows 153 of the 1,300+ ideas in [DDMarketer](https://www.ddmarketer.com/?utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas).
 The same data is available to AI agents as a free remote MCP server:
 `https://www.ddmarketer.com/api/mcp`.
 
 ## Contents
 
 - [This week's top 25](#this-weeks-top-25)
-- [Shopify app ideas](#shopify-app-ideas) (127 in the database)
+- [Shopify app ideas](#shopify-app-ideas) (128 in the database)
 - [WooCommerce plugin ideas](#woocommerce-plugin-ideas) (13 in the database)
 - [Accounting and bookkeeping software ideas](#accounting-and-bookkeeping-software-ideas) (214 in the database)
-- [Real estate SaaS ideas](#real-estate-saas-ideas) (112 in the database)
-- [Property management software ideas](#property-management-software-ideas) (69 in the database)
-- [Developer tool ideas](#developer-tool-ideas) (328 in the database)
-- [AI agent product ideas](#ai-agent-product-ideas) (153 in the database)
+- [Real estate SaaS ideas](#real-estate-saas-ideas) (115 in the database)
+- [Property management software ideas](#property-management-software-ideas) (71 in the database)
+- [Developer tool ideas](#developer-tool-ideas) (329 in the database)
+- [AI agent product ideas](#ai-agent-product-ideas) (154 in the database)
 - [Healthcare software ideas](#healthcare-software-ideas) (15 in the database)
 - [HR and payroll software ideas](#hr-and-payroll-software-ideas) (16 in the database)
 - [Legal tech ideas](#legal-tech-ideas) (34 in the database)
@@ -36,16 +36,19 @@ The highest buying-intent gaps from this week's complaints.
 
 | Idea | Market | Buying intent |
 |---|---|---|
-| [Zero-config HTML form endpoints for static client sites](https://www.ddmarketer.com/gap/zero-config-html-form-endpoints-for-static-client-sites-36e7ff36?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | Static site form endpoints and email delivery | 80/100 |
-| [CRA compliance toolkit for solo firmware vendors](https://www.ddmarketer.com/gap/cra-compliance-toolkit-for-solo-firmware-vendors-578dfef4?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | EU Cyber Resilience Act compliance for micro software vendors | 80/100 |
-| [Stop waking up to $100k Salesforce credit bills](https://www.ddmarketer.com/gap/stop-waking-up-to-100k-salesforce-credit-bills-57fa4393?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | SaaS spend management / Salesforce credit monitoring | 80/100 |
-| [Remote landlord oversight for cross-border rental properties](https://www.ddmarketer.com/gap/remote-landlord-oversight-for-cross-border-rental-properties-dac1a8ba?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | Cross-border property management oversight | 80/100 |
-| [Painless channel manager onboarding with zero-property drift](https://www.ddmarketer.com/gap/painless-channel-manager-onboarding-with-zero-property-drift-3c8ed246?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | Vacation rental channel management onboarding | 60/100 |
-| [Deposits and net terms for non-Plus Shopify wholesale](https://www.ddmarketer.com/gap/deposits-and-net-terms-for-non-plus-shopify-wholesale-5a7fadf8?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | Shopify B2B financials and deposits | 60/100 |
-| [Prove your Airbnb isn't hosting a party before Airbnb blocks it](https://www.ddmarketer.com/gap/prove-your-airbnb-isn-t-hosting-a-party-before-airbnb-74f0dc2d?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | Airbnb host operations | 60/100 |
-| [Airbnb turnover coordinator that prevents review-risk late-checkout conflicts](https://www.ddmarketer.com/gap/airbnb-turnover-coordinator-that-prevents-review-risk-late-checkout-conflicts-79e61626?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | Airbnb/STR turnover management | 60/100 |
-| [Stop spam emails posing as store customers](https://www.ddmarketer.com/gap/stop-spam-emails-posing-as-store-customers-7b243e8e?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | Shopify store contact email spam | 60/100 |
-| [Automated CCTV redaction for GDPR subject access requests](https://www.ddmarketer.com/gap/automated-cctv-redaction-for-gdpr-subject-access-requests-e6256456?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | GDPR CCTV SAR Processing | 60/100 |
+| [AI search visibility tracker for measuring brand citations in LLMs](https://www.ddmarketer.com/gap/ai-search-visibility-tracker-for-measuring-brand-citations-in-llms-30313396?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | AI search visibility tracking | 80/100 |
+| [Turn one podcast episode into a week of content automatically](https://www.ddmarketer.com/gap/turn-one-podcast-episode-into-a-week-of-content-automatically-c6d1fba8?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | Podcast content repurposing for independent interview shows | 80/100 |
+| [POS-native inventory for retailers losing Stocky to Shopify](https://www.ddmarketer.com/gap/pos-native-inventory-for-retailers-losing-stocky-to-shopify-f6bd2707?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | Shopify POS inventory management post-Stocky departure | 80/100 |
+| [Cut the setup keep the payoff](https://www.ddmarketer.com/gap/cut-the-setup-keep-the-payoff-1fd8133f?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | Podcast editing | 60/100 |
+| [Automated sanity checks that catch bad automation outputs before humans do](https://www.ddmarketer.com/gap/automated-sanity-checks-that-catch-bad-automation-outputs-before-humans-4dc920fd?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | Zapier automation output validation and error detection | 60/100 |
+| [Compliance alerts that beat state registration delays](https://www.ddmarketer.com/gap/compliance-alerts-that-beat-state-registration-delays-64da854a?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | Short-term rental tax compliance automation | 60/100 |
+| [Enterprise sandbox for employee vibecoded apps](https://www.ddmarketer.com/gap/enterprise-sandbox-for-employee-vibecoded-apps-797c2436?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | AI-generated internal app security | 60/100 |
+| [Auto-compile messy vendor sales reports into shareable weekly dashboards](https://www.ddmarketer.com/gap/auto-compile-messy-vendor-sales-reports-into-shareable-weekly-dashboards-a5eb29d4?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | Vendor sales report consolidation | 60/100 |
+| [Shared mailbox folder navigation that survives 10k+ folders](https://www.ddmarketer.com/gap/shared-mailbox-folder-navigation-that-survives-10k-folders-b8948f40?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | Exchange Online shared mailbox navigation | 60/100 |
+| [Medical waste pickup for Airbnb hosts](https://www.ddmarketer.com/gap/medical-waste-pickup-for-airbnb-hosts-b92108c4?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | Airbnb medical waste disposal | 60/100 |
+| [Recruiting tools that don't hold your own applicants hostage](https://www.ddmarketer.com/gap/recruiting-tools-that-don-t-hold-your-own-applicants-hostage-be379c1e?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | Niche engineering recruiting in constrained labor markets | 60/100 |
+| [Headless CMS visual editor for Astro and static sites](https://www.ddmarketer.com/gap/headless-cms-visual-editor-for-astro-and-static-sites-cab9b043?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | Webflow | 60/100 |
+| [Stop absorbing Airbnb damage losses with pre-strike deposits and instant dispute docs](https://www.ddmarketer.com/gap/stop-absorbing-airbnb-damage-losses-with-pre-strike-deposits-and-ef702f1a?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | Airbnb short-term rental damage deposits and dispute management | 60/100 |
 
 ## Shopify app ideas
 
@@ -192,10 +195,10 @@ The highest buying-intent gaps from this week's complaints.
 | [Automated copyright checks for podcasters before publishing](https://www.ddmarketer.com/gap/automated-copyright-checks-for-podcasters-before-publishing-33bdd111?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | Podcast content moderation and copyright compliance | 80/100 |
 | [NGO payment processing that understands compliance](https://www.ddmarketer.com/gap/ngo-payment-processing-that-understands-compliance-38407026?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | NGO payment compliance | 80/100 |
 | [Clio auto-billing that doesn't cost thousands](https://www.ddmarketer.com/gap/clio-auto-billing-that-doesn-t-cost-thousands-52ce0777?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | casemanagement | 80/100 |
+| [CRA compliance toolkit for solo firmware vendors](https://www.ddmarketer.com/gap/cra-compliance-toolkit-for-solo-firmware-vendors-578dfef4?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | EU Cyber Resilience Act compliance for micro software vendors | 80/100 |
 | [Track AI tool usage and ROI for law firms](https://www.ddmarketer.com/gap/track-ai-tool-usage-and-roi-for-law-firms-66454123?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | Legaltech ROI tracking | 80/100 |
 | [Automate early lease termination for landlords](https://www.ddmarketer.com/gap/automate-early-lease-termination-for-landlords-763a575b?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | Landlord early lease termination management | 80/100 |
 | [Clio quietly removes firm billing controls](https://www.ddmarketer.com/gap/clio-quietly-removes-firm-billing-controls-7f3396fb?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | law firm billing data independence | 80/100 |
-| [Automate GDPR/CCPA data requests across microservices](https://www.ddmarketer.com/gap/automate-gdpr-ccpa-data-requests-across-microservices-8c16d955?utm_source=mcp&utm_medium=referral&utm_source=github&utm_medium=readme&utm_campaign=validated-saas-ideas) | GDPR/CCPA DSAR automation | 80/100 |
 
 ## Construction software ideas
 
